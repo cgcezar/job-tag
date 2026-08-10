@@ -137,7 +137,7 @@ export default function App() {
                 color: C.muted, textTransform: "uppercase",
               }}
             >
-              Job hunt logbook
+              Your data in this logbook is saved locally in your device.
             </div>
             <h1
               style={{
@@ -145,7 +145,7 @@ export default function App() {
                 letterSpacing: "-0.03em", lineHeight: 1.1, marginTop: 6,
               }}
             >
-              Applications
+              Job Applications
             </h1>
           </div>
           <div className="flex items-center gap-4">
