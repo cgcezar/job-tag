@@ -137,7 +137,7 @@ export default function App() {
                 color: C.muted, textTransform: "uppercase",
               }}
             >
-              Your data in this logbook is saved locally in your device.
+              Your logbook data is saved locally on your device.
             </div>
             <h1
               style={{
