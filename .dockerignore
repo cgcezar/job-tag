@@ -1,0 +1,8 @@
+node_modules
+.git
+.env
+.env.example
+dist
+job-tag-git
+infra/.terraform
+*.log

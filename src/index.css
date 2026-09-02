@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  background: #e9edf1;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Keep digits aligned in the calendar grid and the stat rows. */
+[data-numeric],
+input[type="date"],
+input[type="time"] {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Visible keyboard focus everywhere, not just where a component remembers. */
+:focus-visible {
+  outline: 2px solid #e9a208;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
